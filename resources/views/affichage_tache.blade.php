@@ -8,10 +8,9 @@
     @endforeach
     <header class="card-header">
       <p class="card-header-title">
-        {{$tache->titer}}
+        {{$tache->titer}} &nbsp; &nbsp;
+        {{$tache->id}}
       </p>
-      <button class="card-header-icon" aria-label="more options">
-      </button>
     </header>
     <div class="card-content">
       <div class="content">

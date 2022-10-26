@@ -14,7 +14,8 @@ class TachesController extends Controller
      */
     public function index()
     {
-        //
+        $taches = Tache::all() ;
+        return view('affichage_tache' , compact('taches')) ;
     }
 
     /**
