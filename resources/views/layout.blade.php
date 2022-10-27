@@ -31,7 +31,7 @@
                 <i class="fa-sharp fa-solid fa-keyboard"></i> &nbsp;
               Tableaux
             </a>
-            <a class="navbar-item ml-6">
+            <a class="navbar-item ml-6" href="{{route('taches')}}">
                 <i class="fa-solid fa-laptop-file"></i> &nbsp;
                 Mes Taches
             </a>

@@ -1,27 +1,27 @@
 @extends('layout')
 
 @section('content')
-
-<div class="card">
-    @foreach ($taches as $tache)
+@foreach ($taches as $tache)
+    <div class="container card">
         
-    @endforeach
-    <header class="card-header">
-      <p class="card-header-title">
-        {{$tache->titer}} &nbsp; &nbsp;
-        {{$tache->id}}
-      </p>
-    </header>
-    <div class="card-content">
-      <div class="content">
-        {{$tache->contenu}}
-      </div>
-    </div>
-    <footer class="card-footer">
-      <a href="{{route('show')}}" class="card-footer-item"> Voir</a>
-      <a href="{{route('edit')}}" class="card-footer-item">Modifier</a>
-      <a href="{{route('delete')}}" class="card-footer-item">Supprimer</a>
-    </footer>
-  </div>
+            <header class="card-header">
+            <p class="card-header-title">
+                {{$tache->titre}} &nbsp; &nbsp; id : &nbsp;
+                {{$tache->id}}
+            </p>
+            </header>
+            <div class="card-content">
+            <div class="content">
+                {{$tache->contenu}}
+            </div>
+            </div>
+            <footer class="card-footer">
+            <a href="#" class="card-footer-item"> Voir</a>
+            <a href="#" class="card-footer-item">Modifier</a>
+            <a href="#" class="card-footer-item">Supprimer</a>
+            </footer>
+    </div> 
+<hr>
+@endforeach
     
 @endsection

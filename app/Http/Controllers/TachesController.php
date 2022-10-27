@@ -12,7 +12,7 @@ class TachesController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function affichage_taches()
     {
         $taches = Tache::all() ;
         return view('affichage_tache' , compact('taches')) ;

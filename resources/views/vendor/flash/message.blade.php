@@ -18,11 +18,10 @@
                         aria-hidden="true"
                 >&times;</button>
             @endif
-            <div class="message-body">
-                {!! $message['message'] !!}
-            </div>
+                <div class="container message-body">
+                    {!! $message['message'] !!}
+                </div>
 
-            
         </div>
     @endif
 @endforeach
