@@ -12,10 +12,11 @@
 </head>
 <body>
     
-    <nav class="navbar" role="navigation" aria-label="main navigation" style="position: fixed; width:100%">
+    <nav class="navbar is-light" role="navigation" aria-label="main navigation" style="position: fixed; width:100%">
         <div class="navbar-brand">
           <a class="navbar-item" href="#">
-            <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
+            <h1 class="title is-2">YOREL</h1>
+            {{-- <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28"> --}}
           </a>
       
           <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
@@ -27,20 +28,20 @@
       
         <div id="navbarBasicExample" class="navbar-menu">
           <div class="navbar-start">
-            <a class="navbar-item ml-6">
+            <a class="navbar-item ml-6" href="/">
               Accueil
             </a>
-            <a class="navbar-item ml-6">
+            <a class="navbar-item ml-6" href="{{route('mon-compte')}}">
                 Mon compte
             </a>
       
-            <a class="navbar-item ml-6">
+            <a class="navbar-item ml-6" href="{{route('taches')}}">
               Mes taches
             </a>
-            <a class="navbar-item ml-6">
+            <a class="navbar-item ml-6" href="{{route('a-propos')}}">
                 A propos
             </a>
-              <a class="navbar-item ml-6">
+              <a class="navbar-item ml-6" href="{{route('contact')}}">
                 Contact
             </a>
       
@@ -62,7 +63,7 @@
         </div>
       </nav>
   <br> <br> <br>
-      <div class="container">
+      <div class="section container">
         <p >
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem rem, vel velit accusamus, fuga id obcaecati quibusdam culpa hic iusto voluptatibus quaerat eaque minus adipisci impedit ipsum quod voluptate quos.
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt quaerat nulla porro et inventore. Delectus dolorem non velit repudiandae esse qui soluta alias. Unde incidunt laboriosam nesciunt fugit odit nulla?
@@ -101,30 +102,7 @@ Cupidatat elit eu aute duis duis elit magna. Aliquip labore ullamco et eiusmod e
 Mollit anim aliqua reprehenderit culpa ex enim aliqua consequat irure quis minim sit irure. Consectetur mollit nulla aliqua ut culpa laboris amet irure. Laboris adipisicing ea id ipsum dolor ea minim cupidatat.
 
 Sit cillum pariatur quis culpa proident eiusmod adipisicing consectetur eiusmod tempor. Est eiusmod aliqua nostrud aliqua reprehenderit anim labore ipsum elit mollit. Esse reprehenderit mollit do esse ad cupidatat eiusmod. Sunt amet id eu aliqua velit qui voluptate cillum. Veniam laboris fugiat ea nulla dolore velit reprehenderit in. Do voluptate veniam ad voluptate officia ut voluptate mollit velit aliqua aliqua duis.
-
-Reprehenderit exercitation aliqua amet incididunt sint magna velit ea veniam occaecat ipsum. Velit do id ea reprehenderit duis culpa ut laborum nulla ea magna. In cillum consectetur dolor consectetur sunt ut ex. Consectetur esse dolore mollit do mollit et anim minim ex ullamco ea commodo. Commodo Lorem nulla eiusmod cillum duis dolor aliqua et occaecat anim dolore occaecat ad et.
-
-Magna consequat ullamco culpa excepteur et. Officia ipsum officia anim sit est magna. Pariatur deserunt pariatur exercitation fugiat proident labore aute dolor sunt aute. Do non duis cillum cupidatat aliqua consectetur.
-
-Nulla sunt minim voluptate in irure adipisicing in amet. Quis quis aliqua reprehenderit nulla reprehenderit. Dolore ut laborum incididunt qui consectetur adipisicing incididunt officia Lorem. Cupidatat Lorem irure excepteur nostrud adipisicing aliqua tempor. Officia laborum ea ea non.Enim culpa proident officia nisi deserunt amet reprehenderit aute qui voluptate nisi est exercitation aliquip. Dolor dolore duis ad ex non ut reprehenderit elit fugiat aliqua irure. Cupidatat qui ad veniam veniam fugiat nisi veniam minim laborum incididunt do nostrud dolore. Minim veniam magna fugiat do ad pariatur consectetur excepteur officia laborum commodo ipsum proident adipisicing. Do minim dolore aliquip proident magna qui ad adipisicing pariatur ad Lorem id. Tempor ad esse mollit voluptate ad eu ut voluptate commodo proident non aliquip. Duis dolor dolor laborum sit quis in est veniam quis anim dolor elit.
-
-Exercitation deserunt exercitation laborum et ut do fugiat mollit duis id commodo. Eiusmod eiusmod sit incididunt deserunt. Est non nostrud pariatur fugiat ea nisi ut quis do pariatur.
-
-Proident aliqua consectetur elit ullamco incididunt. Anim ut aute exercitation ipsum veniam Lorem magna do elit Lorem id deserunt. Officia cillum ut irure in voluptate elit ut in aute adipisicing sunt tempor.
-
-Officia velit id sint ullamco labore minim eiusmod sint. Incididunt enim laboris veniam in duis ea. Incididunt incididunt excepteur proident eiusmod dolor eiusmod. Dolor est laborum quis est eu velit labore. Lorem tempor ex cupidatat commodo pariatur minim nostrud sit ea labore ad ad aute. Exercitation anim deserunt dolor Lorem sunt ipsum.
-
-Fugiat aute nostrud sit enim elit id quis. Mollit dolore laboris consectetur ipsum mollit excepteur sint velit incididunt qui ullamco cillum enim. Fugiat pariatur dolore anim ex ea enim cupidatat est in ad excepteur culpa. Dolore esse cillum nulla minim excepteur consectetur consectetur. Ex amet voluptate commodo esse nostrud ea eu non. Aliqua ad excepteur voluptate magna nulla consectetur velit qui anim eiusmod.
-
-Nulla cillum est commodo voluptate culpa sint do nulla. Commodo ex irure veniam pariatur esse mollit pariatur amet duis ullamco. Id aliquip eu dolor Lorem id eiusmod proident anim nulla. Aute do do tempor consequat aute voluptate dolor tempor. Commodo commodo et velit sunt aliquip ea enim dolore culpa pariatur adipisicing in.
-
-Veniam dolore reprehenderit do ad veniam excepteur nostrud elit incididunt aute. Tempor magna exercitation ex excepteur sint esse elit culpa sit irure ad velit fugiat pariatur. Excepteur voluptate non qui consectetur Lorem pariatur mollit quis incididunt. Aliquip laborum aute elit ea eiusmod enim do magna minim nulla irure dolore nulla.
-
-Veniam ut qui consectetur elit amet eiusmod sunt sit sit nisi ad pariatur amet. Nulla tempor amet sit pariatur cillum cupidatat ex quis in mollit eiusmod. Amet sint in incididunt adipisicing anim. Sit deserunt sit nostrud ullamco. Incididunt sunt aliqua officia tempor irure qui incididunt voluptate et officia tempor. Lorem aliquip est enim ullamco consequat eiusmod duis est minim aliquip quis.
-
-Consequat amet ipsum nisi minim aliqua. Voluptate commodo ex qui culpa elit ea sit ea in. Et pariatur occaecat commodo eiusmod esse officia pariatur irure incididunt laborum sint et laboris culpa. Et quis excepteur ipsum do mollit anim aliqua.
-
-Aliquip cillum excepteur ad adipisicing aliqua exercitation tempor in. Occaecat fugiat incididunt ea tempor esse proident laboris nostrud velit anim nostrud quis. Enim nulla ut ea adipisicing tempor tempor.
+pisicing aliqua exercitation tempor in. Occaecat fugiat incididunt ea tempor esse proident laboris nostrud velit anim nostrud quis. Enim nulla ut ea adipisicing tempor tempor.
         </p>
       </div>
 

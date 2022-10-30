@@ -16,9 +16,9 @@
             </div>
             </div>
             <footer class="card-footer">
-            <a href="#" class="card-footer-item"> Voir</a>
-            <a href="#" class="card-footer-item">Modifier</a>
-            <a href="#" class="card-footer-item">Supprimer</a>
+            <a href="{{route('show' , $tache->id)}}" class="card-footer-item"> Voir</a>
+            <a href="{{route('edit' , $tache->id)}}" class="card-footer-item">Modifier</a>
+            <a href="{{route('delete' , $tache->id)}}" class="card-footer-item">Supprimer</a>
             </footer>
     </div> 
 <hr>

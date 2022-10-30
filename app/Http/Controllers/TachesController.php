@@ -59,48 +59,51 @@ class TachesController extends Controller
         }
     }
 
-    /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
     public function show($id)
     {
-        //
+        
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
+
     public function edit($id)
-    {
-        //
+
+    {    $tache = Tache::findOrFail($id) ;
+
+        return view('modification_tache' , compact('tache')) ;
     }
 
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
     public function update(Request $request, $id)
-    {
-        //
+    { 
+        $request->validate([
+            'titre' => 'required',
+            'contenu' => 'required' ,
+             'delai' => 'required'
+        ]) ;
+
+        $tache = Tache::findOrFail($id) ;
+
+        $tache->titre = $request->titre ;
+        $tache->contenu = $request->contenu ;
+        $tache->delai = $request->delai ;
+
+        $resultat = $tache->update() ;
+        if($resultat){
+            flash('Vous venez de modifier avec succès votre tache') ;
+
+            return redirect('/affichage-taches');
+        }
+      
     }
 
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
+
     public function destroy($id)
     {
-        //
+        $tache = Tache::findOrFail($id);
+        $resultat = $tache->delete() ;
+        if($resultat){
+            flash('Vous venez de supprimer votre d\'id'.$tache->id.'est supprimé') ;
+
+            return redirect('/affichage-taches');
+        }
     }
 }
