@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\ConnexionController;
+use App\Http\Controllers\InscriptionController;
 use App\Http\Controllers\TachesController;
 use Illuminate\Support\Facades\Route;
 use App\Models\Tache;
@@ -57,3 +59,12 @@ Route::get('/contact' , function(){
     return view('contact') ;
 })->name('contact') ;
 
+
+// Cette partie c'est pour l'authentification
+
+Route::get('/inscription' , [InscriptionController::class , 'inscription']);
+
+Route::post('/inscription' , [InscriptionController::class , 'inscriptionTraitement'])->name('inscription') ;
+
+Route::get('/connexion' , [ConnexionController::class , 'connexion']) ;
+Route::post('/connexion' , [ConnexionController::class , 'connexionTraitement'])->name('connexion') ;
