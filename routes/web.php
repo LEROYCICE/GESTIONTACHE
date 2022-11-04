@@ -38,7 +38,7 @@ Route::get('/modification-tache/{id}' , [TachesController::class , 'edit'])->nam
 Route::patch('/modification-tache/{id}' , [TachesController::class ,'update'])->name('update') ;
 
 //Route pour supprimer une tache
-Route::get('/supprimer-tache/{id}' , [TachesController::class , 'destroy'])->name('delete') ;
+Route::delete('/supprimer-tache/{id}' , [TachesController::class , 'destroy'])->name('delete') ;
 
 
 //Route pour mon compte

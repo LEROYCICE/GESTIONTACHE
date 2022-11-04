@@ -63,47 +63,25 @@
         </div>
       </nav>
   <br> <br> <br>
-      <div class="section container">
-        <p >
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem rem, vel velit accusamus, fuga id obcaecati quibusdam culpa hic iusto voluptatibus quaerat eaque minus adipisci impedit ipsum quod voluptate quos.
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt quaerat nulla porro et inventore. Delectus dolorem non velit repudiandae esse qui soluta alias. Unde incidunt laboriosam nesciunt fugit odit nulla?
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non eaque, voluptatum at laboriosam perferendis, enim voluptate et rem numquam id ratione temporibus iusto laborum aliquam, corrupti corporis. Deleniti, temporibus aut.
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat adipisci libero numquam soluta, enim veritatis aliquid, quasi quos nostrum eligendi quae voluptas qui perspiciatis deserunt quidem saepe quaerat est in?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis quasi deserunt saepe repellat nam accusamus facilis, assumenda labore perspiciatis ea aperiam quis dolorum rem sed distinctio? Quibusdam quos et eius.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat dicta consectetur ratione ipsam veniam rem explicabo modi suscipit quae autem quis impedit, inventore ipsa recusandae et quibusdam debitis animi culpa.
-            Nostrud cillum quis esse aliqua qui voluptate duis laboris sit consequat irure exercitation excepteur. Reprehenderit aliqua eu sint exercitation non consequat. Amet deserunt duis nisi voluptate ea cupidatat id. Dolor Lorem adipisicing incididunt culpa esse ullamco voluptate ipsum id sint nulla est ea. Sit eu veniam fugiat aute sint velit irure laboris aliqua non ex in qui. Consectetur aute irure elit mollit ex. Duis officia Lorem est proident.
+      <div class="container">
+        <div class="columns">
+          <div class="column">
+            <br> <br> <br>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+             Obcaecati dolores aspernatur dolore non rerum officiis minima laborum exercitationem ducimus dignissimos.
+             Minus amet ratione earum blanditiis aspernatur nulla maxime quo maiores.
+             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi, iure maxime qui, quas ex saepe ad sapiente expedita iusto tempora at ipsa nihil distinctio delectus cupiditate,
+              rerum consequuntur dolor aperiam?
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam dolorum quos architecto? Amet quas in odit aliquam eaque aut consequuntur, 
+              fugit possimus excepturi nostrum rem iusto quidem ipsam, minus provident!
 
-Dolore velit ut veniam excepteur irure est quis aute. Velit excepteur quis consequat voluptate. Ut irure sunt sit aliquip aliqua.
-
-Sunt nostrud duis culpa sint ipsum elit. Sunt consectetur fugiat Lorem est eu amet labore nulla ullamco. Dolor est id laborum veniam voluptate minim enim esse. Velit in ex dolor esse.
-
-Et deserunt amet Lorem duis eu tempor pariatur pariatur laboris id anim deserunt do duis. Cillum proident commodo in adipisicing exercitation elit ex sunt ut laborum pariatur ad Lorem. Velit culpa elit consectetur esse dolor. Amet consectetur reprehenderit aliquip dolor occaecat. Tempor duis laboris occaecat laborum do in esse velit. Enim aute mollit ad do ipsum sint minim eiusmod cillum nisi sint consequat mollit. Ad consequat fugiat Lorem nostrud sint sint ipsum deserunt elit.
-
-Reprehenderit commodo sit enim qui et velit aliquip et esse est et et ullamco fugiat. Consectetur laboris ea enim elit id. Exercitation adipisicing adipisicing sunt et Lorem excepteur ullamco in nisi sunt enim sint in eu. Ipsum officia consequat non adipisicing ipsum cupidatat aliquip eiusmod. Veniam Lorem eu sint sit qui occaecat. Cupidatat non aliqua sint nisi pariatur aliqua minim ad voluptate aliquip ea ut. Nulla fugiat excepteur et officia ipsum nisi deserunt in.
-
-Aliqua ullamco et cupidatat elit cillum elit ullamco quis quis labore anim qui proident. Laborum ea esse aliquip consectetur amet sit voluptate laboris pariatur labore. Mollit excepteur do commodo amet nulla officia qui labore eiusmod Lorem irure aliqua exercitation. Sint deserunt et consectetur ullamco laboris aliqua. Mollit dolor veniam consequat eiusmod adipisicing ad aliqua est commodo eu nostrud ad anim. Est aliqua ea fugiat Lorem qui occaecat aute aute sunt velit. Nostrud ut ea anim veniam aliqua ex proident consectetur tempor.
-
-Elit magna occaecat est anim ut eu ut labore. Laborum sit tempor non enim tempor ex reprehenderit sunt veniam adipisicing laborum. Nostrud aute sunt tempor eiusmod esse id amet ea do aliquip est ut eu adipisicing. Occaecat ipsum ullamco et adipisicing non anim nulla.
-
-Ex voluptate do sunt voluptate occaecat elit sint pariatur anim proident ex reprehenderit. Elit duis culpa dolore velit tempor ipsum anim veniam laboris in reprehenderit eu. Nisi laborum ullamco nostrud aute aliqua sit voluptate incididunt cillum.
-
-Deserunt anim aliquip ea adipisicing duis irure. Fugiat elit culpa aute veniam cupidatat. Cupidatat eiusmod dolore nostrud reprehenderit anim duis et cillum. Ullamco aliquip et elit do sunt duis labore aliquip labore adipisicing exercitation. Cupidatat nostrud sit dolor cillum pariatur Lorem eiusmod cupidatat id occaecat pariatur cupidatat proident. Nisi adipisicing culpa veniam et occaecat do Lorem incididunt Lorem exercitation laboris esse.
-
-Amet ea ullamco sint consectetur occaecat duis ex. Mollit tempor ipsum ullamco est velit eu id. Minim culpa incididunt laboris tempor consequat dolore. Aute id proident sint minim culpa in commodo enim id fugiat consectetur proident. Laborum eiusmod ea minim deserunt anim laborum deserunt occaecat reprehenderit fugiat sunt nulla nulla proident. Consequat dolore deserunt esse eiusmod tempor cillum id non officia exercitation veniam.Elit aliquip sit consequat dolor enim magna. Magna enim fugiat nostrud mollit adipisicing. Quis sunt eu aliqua eiusmod velit. Reprehenderit commodo enim voluptate magna occaecat ut. Tempor minim laborum occaecat est non reprehenderit voluptate aute aliquip fugiat ad incididunt proident consequat. Voluptate enim exercitation ullamco adipisicing dolore proident dolor aute commodo magna ipsum magna.
-
-Id Lorem ipsum do sit esse sint anim magna sunt eu sint esse. Ad est aliqua veniam aliqua cupidatat ipsum duis reprehenderit ipsum aute velit in esse. Esse est non pariatur consectetur magna ad ea cillum.
-
-Tempor labore mollit nulla voluptate eu eiusmod velit reprehenderit tempor irure nulla. Ad ut duis mollit consequat occaecat. Amet ullamco et laborum sunt.
-
-Eu sunt veniam elit cupidatat dolore deserunt sint sunt eiusmod do id esse. Elit do consectetur ut aliqua pariatur ex excepteur sunt magna excepteur dolor ad. Ipsum in Lorem amet sit et in Lorem commodo pariatur nulla Lorem ex excepteur excepteur.
-
-Cupidatat elit eu aute duis duis elit magna. Aliquip labore ullamco et eiusmod esse occaecat. Adipisicing esse excepteur ex in elit duis id irure voluptate ut fugiat et.
-
-Mollit anim aliqua reprehenderit culpa ex enim aliqua consequat irure quis minim sit irure. Consectetur mollit nulla aliqua ut culpa laboris amet irure. Laboris adipisicing ea id ipsum dolor ea minim cupidatat.
-
-Sit cillum pariatur quis culpa proident eiusmod adipisicing consectetur eiusmod tempor. Est eiusmod aliqua nostrud aliqua reprehenderit anim labore ipsum elit mollit. Esse reprehenderit mollit do esse ad cupidatat eiusmod. Sunt amet id eu aliqua velit qui voluptate cillum. Veniam laboris fugiat ea nulla dolore velit reprehenderit in. Do voluptate veniam ad voluptate officia ut voluptate mollit velit aliqua aliqua duis.
-pisicing aliqua exercitation tempor in. Occaecat fugiat incididunt ea tempor esse proident laboris nostrud velit anim nostrud quis. Enim nulla ut ea adipisicing tempor tempor.
-        </p>
+          </div>
+          <div class="column">
+            <figure class="image is-1000x1000">
+                <img class="" src="img/worker.jpg">
+            </figure>
+          </div>
+        </div>
       </div>
 
       <script>

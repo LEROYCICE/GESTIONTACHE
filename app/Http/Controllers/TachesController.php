@@ -61,7 +61,8 @@ class TachesController extends Controller
 
     public function show($id)
     {
-        
+        $tache = Tache::findOrFail($id) ;
+        return view('show_tache' , compact('tache')) ;
     }
 
 
@@ -101,8 +102,7 @@ class TachesController extends Controller
         $tache = Tache::findOrFail($id);
         $resultat = $tache->delete() ;
         if($resultat){
-            flash('Vous venez de supprimer votre d\'id'.$tache->id.'est supprimé') ;
-
+            flash('Vous venez de supprimer votre tache d\'id '.$tache->id.'avec succes')->success() ;
             return redirect('/affichage-taches');
         }
     }
