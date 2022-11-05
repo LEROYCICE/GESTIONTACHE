@@ -4,8 +4,8 @@
 
 <section class="session">
     <div class="container">
-        <div class="columns">
-            <div class="column">
+        <div class="columns is-centered">
+            <div class="column is-half">
                 <div class="notification">
                     <form action="{{route('connexion')}}" method="post">
                         @csrf
@@ -37,6 +37,8 @@
                             <div class="control ml-4">
                               <button class="button is-info" type="submit">Se connecter</button>
                             </div>
+                          </div>
+                          <div class="field">
                             <div class="control">
                               <p> Vous n'etes pas encore inscrit ? <a href="/inscription">Inscrivez-vous</a></p>
                             </div>

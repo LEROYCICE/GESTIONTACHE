@@ -22,13 +22,13 @@ Route::get('/', function () {
 });
 
 //Route pour la création des taches
-Route::get('/creation-tache' , [TachesController::class , 'creation_tache']) ;
+Route::get('/creation-tache' , [TachesController::class , 'creation_tache'])->middleware('App\Http\Middleware\Auth') ;
 
 //Route pour récuperer les taches crées
 Route::post('/sauver' , [TachesController::class , 'sauver_tache'])->name('sauver_tache') ;
 
 //Route pour l'affichage des taches
-Route::get('/affichage-taches' , [TachesController::class , 'affichage_taches'])->name('taches');
+Route::get('/affichage-taches' , [TachesController::class , 'affichage_taches'])->name('taches')->middleware('App\Http\Middleware\Auth');
 
 //Route pour voir une tache
 Route::get('/show/{id}', [TachesController::class , 'show'])->name('show');
@@ -68,3 +68,8 @@ Route::post('/inscription' , [InscriptionController::class , 'inscriptionTraitem
 
 Route::get('/connexion' , [ConnexionController::class , 'connexion']) ;
 Route::post('/connexion' , [ConnexionController::class , 'connexionTraitement'])->name('connexion') ;
+
+Route::get('/deconnexion' , [ConnexionController::class , 'deconnexion']) ;
+
+//Creation de middleware pour gérer la connexion
+

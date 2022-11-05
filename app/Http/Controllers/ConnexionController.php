@@ -30,6 +30,12 @@ class ConnexionController extends Controller
         }
 
     }
+
+    public function deconnexion(){
+        auth()->logout();
+        flash('Vous etes déconnecté')->success() ;
+        return redirect('connexion') ;
+    }
 }
 
 

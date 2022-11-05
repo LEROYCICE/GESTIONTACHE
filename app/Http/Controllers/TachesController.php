@@ -24,7 +24,8 @@ class TachesController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function creation_tache(){ 
-          
+        
+
         return view('creation_tache') ;
     }
 

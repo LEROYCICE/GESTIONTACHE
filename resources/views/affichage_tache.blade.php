@@ -2,8 +2,12 @@
 
 @section('content')
 @foreach ($taches as $tache)
-    <div class="container card">
-        
+
+<section class="section">
+    <div class="container">
+        <div class="colunms is-centered">
+            <div class="column is-half">
+                <div class="card is-centered">
             <header class="card-header">
             <p class="card-header-title">
                 {{$tache->titre}} &nbsp; &nbsp; id : &nbsp;
@@ -25,7 +29,11 @@
                          
                     </footer>
                 </form>
-    </div> 
+                </div>
+            </div>
+        </div> 
+    </div>
+</section>
 <hr>
 @endforeach
     

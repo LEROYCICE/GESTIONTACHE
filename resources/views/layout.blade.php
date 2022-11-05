@@ -27,7 +27,7 @@
       
         <div id="navbarBasicExample" class="navbar-menu">
           <div class="navbar-start">
-            <a class="navbar-item ml-6">
+            <a class="navbar-item ml-6" href="/creation-tache">
                 <i class="fa-sharp fa-solid fa-keyboard"></i> &nbsp;
               Tableaux
             </a>
@@ -51,7 +51,7 @@
           <div class="navbar-end">
             <div class="navbar-item">
               <div class="buttons">
-                <a class="button is-light">
+                <a class="button is-light" href="/deconnexion">
                   Se deconnecter
                 </a>
               </div>

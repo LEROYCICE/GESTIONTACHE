@@ -3,14 +3,14 @@
 @section('content')
 
     <div class="container">
-        <article class="message is-medium">
+        <article class="message is-success">
             <div class="message-header">
-                <p class="title is-2">{{$tache->titre}}</p>
+            <p>{{$tache->titre}}</p>
             </div>
             <div class="message-body">
-                {{$tache->contenu}}
+            {{$tache->contenu}}
             </div>
-        </article>
+        </article>     
     </div>
     
 @endsection

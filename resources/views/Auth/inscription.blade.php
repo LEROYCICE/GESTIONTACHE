@@ -4,8 +4,8 @@
 
 <section class="session">
     <div class="container">
-        <div class="columns">
-            <div class="column">
+        <div class="columns is-centered">
+            <div class="column is-half">
                 <div class="notification">
                     <form action="{{route('inscription')}}" method="post">
                         @csrf
@@ -55,14 +55,17 @@
                             </div>
                           </div>
                           
-                          <div class="field is-grouped">
+                          <div class="field">
                             <div class="control ml-4">
                               <button class="button is-info" type="submit">S'inscrire</button>
                             </div>
+                         </div>
+                         <div class="field">
                             <div class="control">
-                              <p> Avez vous deja un compte ? <a href="/connexion">Connectez-vous</a></p>
+                                <p> Avez vous deja un compte ? <a href="/connexion">Connectez-vous</a></p>
                             </div>
-                          </div>
+                         </div>
+                        
                     
                     </form>
                 </div>

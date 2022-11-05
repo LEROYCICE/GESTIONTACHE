@@ -4,8 +4,8 @@
 
 <section class="session">
     <div class="container">
-        <div class="columns">
-            <div class="column">
+        <div class="columns is-centered">
+            <div class="column is-half">
                 <div class="notification">
                     <form action="{{route('sauver_tache')}}" method="post">
                         @csrf
