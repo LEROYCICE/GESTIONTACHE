@@ -10,6 +10,11 @@
                     </h1>
                 </div>
             </div>
+
+            <div>
+                <h1 class="title"> Nom : {{$utilisateur->nom}}</h1>
+            </div>
+
         </div>
     </section>
 @endsection

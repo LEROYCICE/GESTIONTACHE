@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Tache ;
+use App\Models\Auth ;
 
 class TachesController extends Controller
 {
@@ -14,7 +15,8 @@ class TachesController extends Controller
      */
     public function affichage_taches()
     {
-        $taches = Tache::all() ;
+        $taches = auth()->user()->taches;
+        
         return view('affichage_tache' , compact('taches')) ;
     }
 
@@ -44,6 +46,7 @@ class TachesController extends Controller
         ]);
 
         $tache = new Tache ;
+        $tache->auth_id = auth()->user()->id;
         $tache->titre = $request->titre ;
         $tache->contenu = $request->contenu ;
         $tache->delai = $request->delai ;

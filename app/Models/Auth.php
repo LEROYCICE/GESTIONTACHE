@@ -13,4 +13,8 @@ class Auth extends Model implements Authenticatable
     use BasisAuthentificatable ;
     
     protected $fillable = ['nom', 'email' , 'password' , 'password_confirmation'] ;
+
+    public function taches(){
+        return $this->hasMany(Tache::class) ;
+    }
 }

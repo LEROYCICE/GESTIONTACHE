@@ -15,6 +15,7 @@ class CreateTachesTable extends Migration
     {
         Schema::create('taches', function (Blueprint $table) {
             $table->id();
+            $table->integer('auth_id') ;
             $table->string('titre') ;
             $table->string('contenu');
             $table->timestamp('delai');
