@@ -18,6 +18,8 @@ use App\Models\Tache;
 |
 */
 
+// Mes routes
+
 Route::get('/', function () {
     return view('welcome');
 });
