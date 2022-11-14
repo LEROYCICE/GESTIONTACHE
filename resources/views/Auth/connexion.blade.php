@@ -1,4 +1,8 @@
-@extends('../layout')
+@extends('../app')
+
+@section('inscription', 'Inscription')
+
+@section('connexion', '')
 
 @section('content')
 

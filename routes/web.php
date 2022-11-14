@@ -49,6 +49,8 @@ Route::delete('/supprimer-tache/{id}' , [TachesController::class , 'destroy'])->
 //Route pour mon compte
 Route::get('/mon-compte' ,[CompteController::class , 'infoDuCompte'])->name('mon-compte')->middleware('App\Http\Middleware\Auth') ;
 
+Route::post('/mon-compte' , [CompteController::class , 'avatar'])->name('avatar')->middleware('App\Http\Middleware\Auth') ;
+
 // Route pour à propos de moi
 Route::get('/a-propos' , function(){
     return view('a-propos') ;

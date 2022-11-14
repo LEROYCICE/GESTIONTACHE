@@ -2,6 +2,13 @@
 
 @section('content')
 
+
+<div class="section container">
+  <div class="columns is-centered">
+    <h2 class="title is-3">Modifier vos taches</h2>
+  </div>
+</div>
+
 <section class="session">
     <div class="container">
         <div class="columns">
@@ -35,7 +42,7 @@
                               <button class="button is-link" type="submit">Modifier la tache</button>
                             </div>
                             <div class="control">
-                              <button class="button is-link is-danger"> <a href="/" style="text-decoration: none;"> Quitter </a> </button>
+                              <button class="button is-link is-danger"> <a href="/creation-tache" style="text-decoration: none;"> Quitter </a> </button>
                             </div>
                           </div>
                     

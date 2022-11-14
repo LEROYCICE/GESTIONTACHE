@@ -27,7 +27,8 @@ class TachesController extends Controller
      */
     public function creation_tache(){ 
         
-
+        $utilisateur = auth()->user() ;
+        
         return view('creation_tache') ;
     }
 

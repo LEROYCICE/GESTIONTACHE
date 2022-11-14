@@ -24,19 +24,21 @@
             <span aria-hidden="true"></span>
           </a>
         </div>
-      
+
+        @if (auth()->check())
+            
         <div id="navbarBasicExample" class="navbar-menu">
           <div class="navbar-start">
-            <a class="navbar-item ml-6" href="/creation-tache">
+            <a class="navbar-item ml-6 {{request()->is('/creation-tache') ? 'is-active' : ''}}" href="/creation-tache">
                 <i class="fa-sharp fa-solid fa-keyboard"></i> &nbsp;
               Tableaux
             </a>
-            <a class="navbar-item ml-6" href={{route('taches')}}>
+            <a class="navbar-item ml-6 {{request()->is('/affichage-taches') ? 'is-active' : ''}}" href={{route('taches')}}>
                 <i class="fa-solid fa-laptop-file"></i> &nbsp;
                 Mes Taches
             </a>
       
-            <a class="navbar-item ml-6">
+            <a class="navbar-item ml-6 is-active">
                 <i class="fa-solid fa-people-line"></i> &nbsp;
               Membres
             </a>
@@ -58,6 +60,7 @@
             </div>
           </div>
         </div>
+        @endif
       </nav>
       <hr>
   <br> <br> <br>
