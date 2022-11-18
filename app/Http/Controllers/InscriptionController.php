@@ -34,7 +34,7 @@ class InscriptionController extends Controller
 
         if($resultat){
             flash('Vous venez de vous inscrire sur votre plateforme de gestion de tache') ;
-            return redirect('/creation-tache') ;
+            return redirect('/connexion') ;
         }
 
     }

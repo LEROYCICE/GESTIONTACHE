@@ -31,7 +31,7 @@
             <a class="navbar-item ml-6" href="/">
               Accueil
             </a>
-            <a class="navbar-item ml-6" href="{{route('mon-compte')}}">
+            <a class="navbar-item ml-6 {{request()->is('/mon-compte') ? 'is-active' : ''}}" href="{{route('mon-compte')}}">
                 Mon compte
             </a>
       

@@ -3,6 +3,7 @@
 use App\Http\Controllers\CompteController;
 use App\Http\Controllers\ConnexionController;
 use App\Http\Controllers\InscriptionController;
+use App\Http\Controllers\MembresController;
 use App\Http\Controllers\TachesController;
 use Illuminate\Support\Facades\Route;
 use App\Models\Tache;
@@ -75,4 +76,10 @@ Route::post('/connexion' , [ConnexionController::class , 'connexionTraitement'])
 Route::get('/deconnexion' , [ConnexionController::class , 'deconnexion']) ;
 
 //Creation de middleware pour gérer la connexion
+
+// Route pour afficher tous les utilisateurs
+
+Route::get('/les-utilisateurs', [MembresController::class , 'lesUtilisateurs']) ;
+
+Route::get('/utilisateurs/{nom}' , [MembresController::class , 'suivreUtilisateur']) ;
 
