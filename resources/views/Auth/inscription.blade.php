@@ -66,7 +66,7 @@
                          </div>
                          <div class="field">
                             <div class="control">
-                                <p> Avez vous deja un compte ? <a href="/connexion">Connectez-vous</a></p>
+                                <p> Avez vous deja un compte ? <a  style="text-decoration: none ; color: rgb(51, 51, 155)" href="/connexion">Connectez-vous</a></p>
                             </div>
                          </div>
                         

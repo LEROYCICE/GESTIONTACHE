@@ -20,24 +20,12 @@ class TachesController extends Controller
         return view('affichage_tache' , compact('taches')) ;
     }
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
     public function creation_tache(){ 
-        
-        $utilisateur = auth()->user() ;
         
         return view('creation_tache') ;
     }
 
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
+
     public function sauver_tache(Request $request)
     {
         $request->validate([

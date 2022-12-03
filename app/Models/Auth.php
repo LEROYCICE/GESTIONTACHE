@@ -17,4 +17,8 @@ class Auth extends Model implements Authenticatable
     public function taches(){
         return $this->hasMany(Tache::class) ;
     }
+
+    public function invites(){
+        return $this->belongsToMany(Auth::class , 'invites' ,'inviteur_id' , 'invite_id');
+    }
 }

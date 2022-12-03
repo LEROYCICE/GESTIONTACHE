@@ -25,7 +25,7 @@ class ConnexionController extends Controller
         ]) ;
         if($resultat){
 
-            Mail::to(auth()->user()->email)->send(new InviteTacheMail) ;
+            // Mail::to(auth()->user()->email)->send(new InviteTacheMail) ;
 
             flash("Vous etes bien connecté")->success() ;
             return redirect('/creation-tache') ;

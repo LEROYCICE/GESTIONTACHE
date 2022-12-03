@@ -78,8 +78,9 @@ Route::get('/deconnexion' , [ConnexionController::class , 'deconnexion']) ;
 //Creation de middleware pour gérer la connexion
 
 // Route pour afficher tous les utilisateurs
+Route::get('/les-utilisateurs', [MembresController::class , 'lesUtilisateurs'])->name('utilisateurs');
 
-Route::get('/les-utilisateurs', [MembresController::class , 'lesUtilisateurs']) ;
+//Route pour afficher l'utilisateur à inviter
+Route::get('/les-utilisateurs/{nom}' , [MembresController::class , 'afficherUtilisateur']) ;
 
-Route::get('/utilisateurs/{nom}' , [MembresController::class , 'suivreUtilisateur']) ;
-
+Route::get('/les-utilisateurs/{nom}/invites' , [MembresController::class , 'InviterUtilisateur']) ;

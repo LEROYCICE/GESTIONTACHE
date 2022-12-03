@@ -5,8 +5,6 @@
 <section class="section">
     @foreach ($utilisateurs as $utilisateur)
      
-    <a class="title is-3" href=""> {{$utilisateur->nom}}</a>
-
     <div class="media">
         <div class="media-left">
             <figure class="image is-48x48">
@@ -14,8 +12,11 @@
             </figure>
         </div>
         <div class="media-content">
-    
-        
+            <a href="/les-utilisateurs/{{$utilisateur->nom}}" class="title is-4"> {{$utilisateur->nom}}</a> <br>
+
+        </div>
+    </div>
+
     @endforeach
 </section>
     

@@ -44,7 +44,7 @@
                           </div>
                           <div class="field">
                             <div class="control">
-                              <p> Vous n'etes pas encore inscrit ? <a href="/inscription">Inscrivez-vous</a></p>
+                              <p> Vous n'etes pas encore inscrit ? <a style="text-decoration: none ; color: rgb(51, 51, 155)" href="/inscription">Inscrivez-vous</a></p>
                             </div>
                           </div>
                     
