@@ -42,9 +42,10 @@
                 <i class="fa-solid fa-people-line"></i> &nbsp;
               Membres
             </a>
-            <a class="navbar-item ml-6 is-active">
+            <a href="/notifications" class="navbar-item ml-6 is-active">
                 <i class="fa-solid fa-bell"></i> &nbsp;
-                Notifications
+                  Notifications({{auth()->user()->unReadnotifications->count()}})
+                
             </a>
       
 

@@ -22,7 +22,6 @@ class CompteController extends Controller
         ]) ;
 
         $path = $request->avatar->store('avatars', 'public') ;
-
         auth()->user()
               ->update([
             'avatar' => $path ,

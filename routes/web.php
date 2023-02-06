@@ -28,6 +28,8 @@ Route::get('/', function () {
 //Route pour la création des taches
 Route::get('/creation-tache' , [TachesController::class , 'creation_tache'])->middleware('App\Http\Middleware\Auth') ;
 
+Route::get('/notifications', [MembresController::class , 'notification'])->middleware('App\Http\Middleware\Auth') ;
+
 //Route pour récuperer les taches crées
 Route::post('/sauver' , [TachesController::class , 'sauver_tache'])->name('sauver_tache') ;
 
@@ -73,7 +75,7 @@ Route::post('/inscription' , [InscriptionController::class , 'inscriptionTraitem
 Route::get('/connexion' , [ConnexionController::class , 'connexion']) ;
 Route::post('/connexion' , [ConnexionController::class , 'connexionTraitement'])->name('connexion') ;
 
-Route::get('/deconnexion' , [ConnexionController::class , 'deconnexion']) ;
+Route::get('/deconnexion' , [ConnexionController::class , 'deconnexion'])->name('deconnexion') ;
 
 //Creation de middleware pour gérer la connexion
 
@@ -83,4 +85,4 @@ Route::get('/les-utilisateurs', [MembresController::class , 'lesUtilisateurs'])-
 //Route pour afficher l'utilisateur à inviter
 Route::get('/les-utilisateurs/{nom}' , [MembresController::class , 'afficherUtilisateur']) ;
 
-Route::get('/les-utilisateurs/{nom}/invites' , [MembresController::class , 'InviterUtilisateur']) ;
+Route::post('/les-utilisateurs/{nom}/invites' , [MembresController::class , 'InviterUtilisateur']) ;

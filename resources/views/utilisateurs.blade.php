@@ -2,6 +2,10 @@
 
 @section('content')
 
+    @section('inscription', '')
+        <a href="{{route('deconnexion')}}">
+            @section('connexion', 'deconnexion')        
+        </a>
 <section class="section">
     @foreach ($utilisateurs as $utilisateur)
      
